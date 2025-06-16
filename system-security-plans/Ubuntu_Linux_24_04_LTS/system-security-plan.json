@@ -2,9 +2,9 @@
   "system-security-plan": {
     "uuid": "7550c0c0-31f9-46fd-b022-3a7ae0f3896f",
     "metadata": {
-      "title": "REPLACE_ME",
+      "title": "Ubuntu Linux 24.04 LTS Security Plan",
       "last-modified": "2025-03-19T11:11:04.451761-04:00",
-      "version": "REPLACE_ME",
+      "version": "1.0.0",
       "oscal-version": "1.1.3"
     },
     "import-profile": {
@@ -13,16 +13,16 @@
     "system-characteristics": {
       "system-ids": [
         {
-          "id": "REPLACE_ME"
+          "id": "UL2404-SSP-2025"
         }
       ],
-      "system-name": "REPLACE_ME",
-      "description": "REPLACE_ME",
+      "system-name": "Ubuntu Linux 24.04 LTS Secure Server",
+      "description": "A hardened Ubuntu Linux 24.04 LTS server implementation that meets NIST 800-53 rev5 security requirements",
       "system-information": {
         "information-types": [
           {
-            "title": "REPLACE_ME",
-            "description": "REPLACE_ME"
+            "title": "Operating System Configuration Data",
+            "description": "System configuration and security settings for Ubuntu Linux 24.04 LTS"
           }
         ]
       },
@@ -30,7 +30,7 @@
         "state": "operational"
       },
       "authorization-boundary": {
-        "description": "REPLACE_ME"
+        "description": "This security plan covers the Ubuntu Linux 24.04 LTS operating system components and installed security-related packages"
       }
     },
     "system-implementation": {
